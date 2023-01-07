@@ -7,3 +7,11 @@
 * > * {
   font-family: 'Inter', sans-serif;
 }
+
+.title {
+  @apply font-bold text-lg
+}
+
+.effect-up {
+  @apply relative hover:-top-1 transition duration-200
+}
